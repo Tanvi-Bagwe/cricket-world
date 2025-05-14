@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #007990;
+    background-color: #ee3942;
     color: white;
     padding: 0px 20px;
     flex-wrap: wrap;
@@ -62,7 +62,6 @@
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.4s ease-in-out;
-        background-color: #007990;
         align-items: center;
     }
 
