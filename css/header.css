@@ -1,0 +1,38 @@
+.logo img {
+    max-height: 80px;
+    width: auto;
+}
+
+.site-header {
+    background-color: #003366;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Toggle checkbox - hidden */
+.nav-toggle {
+    display: none;
+}

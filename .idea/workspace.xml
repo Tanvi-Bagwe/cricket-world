@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd49bd43-b800-4ec6-94b6-1d2f62becc3f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/planning_analysis_sheet.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,7 +51,8 @@
     "git-widget-placeholder": "assignment",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Tanvi/web-design-assignment",
+    "last_opened_file_path": "D:/Tanvi/web-design-assignment/static/images",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +62,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Tanvi\web-design-assignment\static\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Tanvi\web-design-assignment\static\docs" />
     </key>
@@ -79,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747246902626</updated>
-      <workItem from="1747246904146" duration="2118000" />
+      <workItem from="1747246904146" duration="4043000" />
     </task>
     <servers />
   </component>
