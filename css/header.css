@@ -2,86 +2,78 @@
     max-height: 80px;
     width: auto;
 }
-/* Header */
+
 .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #007990;
     color: white;
-    box-shadow: -1px 6px 15px -9px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px 6px 15px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 6px 15px -9px rgba(0,0,0,0.75);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 0px 20px;
     flex-wrap: wrap;
-    padding: 10px 20px;
 }
 
-/* Logo */
-.logo img {
-    max-height: 80px;
-    width: auto;
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Hamburger Button */
+.menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    display: none; /* hidden by default, shown on small screens */
 }
 
 /* Navigation */
-.nav {
-    flex-basis: 100%;
-}
-
 .nav-links {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
     gap: 20px;
 }
 
 .nav-links li a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     font-weight: bold;
+    padding: 8px;
 }
 
 .nav-links li a:hover {
     text-decoration: underline;
 }
 
-/* Hamburger toggle */
-.nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    display: none;
-    cursor: pointer;
-    margin-left: auto;
-}
-
-.nav-toggle-label img {
-    width: 30px;
-    height: 30px;
-}
-
-/* Responsive styles */
+/* Mobile Styles */
 @media (max-width: 768px) {
-    .nav-container {
-        flex-direction: column;
-        align-items: flex-start;
+    .menu-toggle {
+        display: block;
     }
 
-    .nav-toggle-label {
-        display: block;
-        align-self: flex-end;
+    .nav {
+        width: 100%;
     }
 
     .nav-links {
         flex-direction: column;
         width: 100%;
-        display: none;
-        margin-top: 10px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        background-color: #007990;
+        align-items: center;
+    }
+
+    .nav-links li {
+        padding: 10px 20px;
+        border-bottom: 1px solid white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.show {
+        max-height: 500px; /* adjust based on your content */
     }
 }

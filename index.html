@@ -14,31 +14,27 @@
 
 <!-- 🔺 Header with Flexbox Navbar -->
 <header class="site-header">
-
     <div class="logo">
         <img src="static/images/logo.png" alt="Cricket World Logo"/>
     </div>
-    <div class="nav-container">
 
-        <label for="nav-toggle" class="nav-toggle-label">
-            <img src="static/images/hamburger.png" alt="Menu"/>
-        </label>
+    <button class="menu-toggle" onclick="showVerticalMenu()" aria-label="Toggle navigation">
+        &#9776; <!-- Unicode hamburger icon -->
+    </button>
 
-        <nav class="nav">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="teams.html">Teams</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="nav">
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 </header>
-
 <main>
     <h1>Welcome to Cricket World</h1>
-    <p>Your ultimate destination for ICC teams, cricket news, and upcoming events.</p>
+    <p>Your ultimate destination for ICC teams cricket news, and upcoming events.</p>
 </main>
 
 <footer>
@@ -46,6 +42,7 @@
     <p><a href="mailto:contact@cricketworld.com">Email Us</a> |
         <a href="https://www.icc-cricket.com" target="_blank">Visit ICC</a></p>
 </footer>
+<script src="js/app.js"></script>
 
 </body>
 </html>
