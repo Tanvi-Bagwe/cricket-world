@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Cricket World - Your go-to hub for cricket teams, events, and media."/>
+    <meta name="keywords" content="cricket, ICC, sports, teams, matches, highlights"/>
+    <meta name="author" content="Your Name"/>
+    <title>Cricket World</title>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/contact-us.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+</head>
+<body>
+
+<!-- 🔺 Header with Flexbox Navbar -->
+<header class="site-header">
+    <div class="logo">
+        <img src="static/images/logo.png" alt="Cricket World Logo"/>
+    </div>
+
+    <button class="menu-toggle" onclick="showVerticalMenu()" aria-label="Toggle navigation">
+        &#9776; <!-- Unicode hamburger icon -->
+    </button>
+
+    <nav class="nav">
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rankings.html">Rankings</a></li>
+            <li><a href="highlights.html">Highlights</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="contact-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="mailto:your@email.com" method="post" enctype="text/plain">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required minlength="2" placeholder="Your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required minlength="10"
+                  placeholder="Write your message here..."></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<section class="contact-links">
+    <a href="https://wa.me/1234567890" target="_blank" class="contact-link">
+        <img src="static/images/icons/whatsapp.png" alt="WhatsApp Icon">
+        WhatsApp
+    </a>
+    <a href="tel:+1234567890" class="contact-link">
+        <img src="static/images/icons/phone-call.png" alt="Phone Icon">
+        Call
+    </a>
+    <a href="mailto:contact@cricketworld.com" class="contact-link">
+        <img src="static/images/icons/mail.png" alt="Mail Icon">
+        Mail
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" class="contact-link">
+        <img src="static/images/icons/instagram.png" alt="Instagram Icon">
+        Instagram
+    </a>
+</section>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-address">
+            <h4>Contact Us</h4>
+            <p>Cricket World<br>
+                123 Stadium Lane<br>
+                Sports City, Country</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Connect with us</h4>
+            <a href="https://wa.me/1234567890" target="_blank">
+                <img src="static/images/icons/whatsapp.png" alt="WhatsApp"> WhatsApp
+            </a>
+            <a href="https://instagram.com/" target="_blank">
+                <img src="static/images/icons/instagram.png" alt="Instagram"> Instagram
+            </a>
+            <a href="mailto:tanvibagwe97@gmail.com">
+                <img src="static/images/icons/mail.png" alt="Email"> Email
+            </a>
+            <a href="tel:+1234567890">
+                <img src="static/images/icons/phone-call.png" alt="Phone Icon">
+                Call
+            </a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Cricket World. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

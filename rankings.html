@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Cricket World - Your go-to hub for cricket teams, events, and media."/>
+    <meta name="keywords" content="cricket, ICC, sports, teams, matches, highlights"/>
+    <meta name="author" content="Your Name"/>
+    <title>Cricket World</title>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/rankings.css">
+    <link rel="stylesheet" href="css/footer.css"/>
+</head>
+<body>
+
+<!-- 🔺 Header with Flexbox Navbar -->
+<header class="site-header">
+    <div class="logo">
+        <img src="static/images/logo.png" alt="Cricket World Logo"/>
+    </div>
+
+    <button class="menu-toggle" onclick="showVerticalMenu()" aria-label="Toggle navigation">
+        &#9776; <!-- Unicode hamburger icon -->
+    </button>
+
+    <nav class="nav">
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rankings.html">Rankings</a></li>
+            <li><a href="highlights.html">Highlights</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="ranking-section">
+    <h2>MEN'S ODI Team Rankings</h2>
+    <div class="table-wrapper">
+        <table class="ranking-table">
+            <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Team</th>
+                <th>Matches</th>
+                <th>Points</th>
+                <th>Rating</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td><img src="static/images/flag/ind.png" class="country-flag" alt="India flag">INDIA</td>
+                <td>30</td>
+                <td>3,500</td>
+                <td>117</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="static/images/flag/nz.png" class="country-flag" alt="NZ flag">NEW ZEALAND</td>
+                <td>30</td>
+                <td>3,400</td>
+                <td>115</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="static/images/flag/aus.png" class="country-flag" alt="Aus flag">AUSTRALIA</td>
+                <td>28</td>
+                <td>3,200</td>
+                <td>114</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="static/images/flag/sri.png" class="country-flag" alt="SRI flag">SRI LANKA</td>
+                <td>24</td>
+                <td>3,100</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="static/images/flag/sa.png" class="country-flag" alt="SA flag">SOUTH AFRICA</td>
+                <td>27</td>
+                <td>3,050</td>
+                <td>110</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><img src="static/images/flag/wi.png" class="country-flag" alt="WI flag">WEST INDIES</td>
+                <td>25</td>
+                <td>2,800</td>
+                <td>112</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><img src="static/images/flag/afg.png" class="country-flag" alt="AFG flag">AFGHANISTAN</td>
+                <td>24</td>
+                <td>2,600</td>
+                <td>108</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td><img src="static/images/flag/ire.png" class="country-flag" alt="Ire flag">IRELAND</td>
+              <td>24</td>
+              <td>2,400</td>
+              <td>105</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td><img src="static/images/flag/ban.png" class="country-flag" alt="Ban flag">BANGLADESH</td>
+              <td>24</td>
+              <td>1,900</td>
+              <td>101</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td><img src="static/images/flag/zim.png" class="country-flag" alt="ZIMBABWE flag">ZIMBABWE</td>
+              <td>24</td>
+              <td>1,700</td>
+              <td>99</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="ranking-section">
+    <h2>MEN'S TEST Team Rankings</h2>
+    <div class="table-wrapper">
+        <table class="ranking-table">
+            <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Team</th>
+                <th>Matches</th>
+                <th>Points</th>
+                <th>Rating</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td><img src="static/images/flag/aus.png" class="country-flag" alt="Aus flag">AUSTRALIA</td>
+                <td>25</td>
+                <td>3,139</td>
+                <td>126</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="static/images/flag/eng.png" class="country-flag" alt="ENG flag">ENGLAND</td>
+                <td>33</td>
+                <td>3,716</td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="static/images/flag/sa.png" class="country-flag" alt="SA flag">SOUTH AFRICA</td>
+                <td>21</td>
+                <td>2,325</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="static/images/flag/ind.png" class="country-flag" alt="India flag">INDIA</td>
+                <td>27</td>
+                <td>2,837</td>
+                <td>105</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="static/images/flag/nz.png" class="country-flag" alt="NZ flag">NEW ZEALAND</td>
+                <td>22</td>
+                <td>2,094</td>
+                <td>95</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td><img src="static/images/flag/sri.png" class="country-flag" alt="SRI flag">SRI LANKA</td>
+                <td>24</td>
+                <td>2,078</td>
+                <td>87</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td><img src="static/images/flag/wi.png" class="country-flag" alt="WI flag">WEST INDIES</td>
+                <td>22</td>
+                <td>1,613</td>
+                <td>73</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><img src="static/images/flag/ban.png" class="country-flag" alt="Ban flag">BANGLADESH</td>
+                <td>24</td>
+                <td>1,487</td>
+                <td>62</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td><img src="static/images/flag/afg.png" class="country-flag" alt="AFG flag">AFGHANISTAN</td>
+                <td>23</td>
+                <td>1,050</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><img src="static/images/flag/zim.png" class="country-flag" alt="ZIMBABWE flag">ZIMBABWE</td>
+                <td>22</td>
+                <td>1,000</td>
+                <td>55</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+</section>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-address">
+            <h4>Contact Us</h4>
+            <p>Cricket World<br>
+                123 Stadium Lane<br>
+                Sports City, Country</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Connect with us</h4>
+            <a href="https://wa.me/1234567890" target="_blank">
+                <img src="static/images/icons/whatsapp.png" alt="WhatsApp"> WhatsApp
+            </a>
+            <a href="https://instagram.com/" target="_blank">
+                <img src="static/images/icons/instagram.png" alt="Instagram"> Instagram
+            </a>
+            <a href="mailto:tanvibagwe97@gmail.com">
+                <img src="static/images/icons/mail.png" alt="Email"> Email
+            </a>
+            <a href="tel:+1234567890" class="contact-link">
+                <img src="static/images/icons/phone-call.png" alt="Phone Icon">
+                Call
+            </a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Cricket World. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
