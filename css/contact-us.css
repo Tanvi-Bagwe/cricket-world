@@ -76,7 +76,6 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
     text-decoration: none;
     color: #075E54; /* WhatsApp green */
     font-weight: bold;
