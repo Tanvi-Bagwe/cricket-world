@@ -8,3 +8,27 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.scroll-to-top img{
+    width: 40px;
+}
+
+.scroll-to-top:hover {
+    cursor: pointer;
+}
