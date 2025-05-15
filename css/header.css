@@ -1,6 +1,7 @@
 .logo img {
-    max-height: 80px;
+    max-height: 60px;
     width: auto;
+    margin-top: 8px;
 }
 
 .site-header {
@@ -74,5 +75,9 @@
 
     .nav-links.show {
         max-height: 500px; /* adjust based on your content */
+    }
+
+    .logo img {
+        max-height: 40px;
     }
 }
