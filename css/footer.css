@@ -43,7 +43,6 @@
     font-size: 14px;
 }
 
-/* Optional Responsive Adjustment */
 @media (min-width: 600px) {
     .footer-container {
         flex-direction: row;

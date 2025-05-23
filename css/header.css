@@ -19,17 +19,15 @@
     font-weight: bold;
 }
 
-/* Hamburger Button */
 .menu-toggle {
     background: none;
     border: none;
     color: white;
     font-size: 28px;
     cursor: pointer;
-    display: none; /* hidden by default, shown on small screens */
+    display: none;
 }
 
-/* Navigation */
 .nav-links {
     list-style: none;
     display: flex;
@@ -47,7 +45,6 @@
     text-decoration: underline;
 }
 
-/* Mobile Styles */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -74,7 +71,7 @@
     }
 
     .nav-links.show {
-        max-height: 500px; /* adjust based on your content */
+        max-height: 500px;
     }
 
     .logo img {
